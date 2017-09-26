@@ -1,0 +1,5 @@
+.DS_Store
+build/*.png
+build/*.jpg
+source/*.png
+source/*.jpg
