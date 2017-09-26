@@ -1,10 +1,7 @@
 require 'tinify'
 require 'find'
 
-# This is Pauls Key. Happy for usage unless you're converting literally hundreds of
-# thousands of images :)
-
-Tinify.key = ENV['TINY_PNG_KEY'] || "REPLACE_WITH_TINY_PNG_KEY"
+Tinify.key = ENV['TINYPNG_KEY'] || "REPLACE_WITH_TINY_PNG_KEY"
 
 image_dir = File.join('source')
 image_file_paths = []
